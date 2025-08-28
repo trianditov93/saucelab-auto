@@ -1,0 +1,145 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successfully-checkedout-an-order-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Successfully checkedout an order with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1399365707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the login page",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1124143874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I input username and password",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191658707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "i can see the products page",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5005627957,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[data-test=\"item-4-img-link\"]')\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-test=\"item-4-img-link\"]')\u001b[22m\n\n    at Proxy.<anonymous> (/Users/vendatriandito/Desktop/sauce-demo/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at World.<anonymous> (/Users/vendatriandito/Desktop/sauce-demo/tests/steps/e2e_steps.js:31:63)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add items to the cart",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I remove an item from the cart",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I log out from the application",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:63"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be logged out successfully",
+            "match": {
+              "location": "tests/steps/e2e_steps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130067291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login",
+    "tags": [],
+    "uri": "tests/features/e2e.feature"
+  }
+]
